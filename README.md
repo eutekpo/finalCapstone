@@ -22,8 +22,8 @@ Replace `<username>` with your GitHub username.
 
 Next, navigate to the ebookstore directory and run the `ebookstore.py` file using Python.
 
-```cd ebookstore
-python ebookstore.py```
+```cd ebookstore``` 
+```python ebookstore.py```
 
 This will create the ebookstore database and populate the "books" table with the specified data.
 
