@@ -16,13 +16,13 @@ To install the ebook store database program, you will need to have Python and SQ
 
 Once you have Python and SQLite installed, clone the repository to your local machine. You can do this by running the following command in your terminal or command prompt:
 
-`git clone https://github.com/<username>/ebookstore.git`
+```git clone https://github.com/<username>/ebookstore.git```
 
 Replace `<username>` with your GitHub username.
 
 Next, navigate to the ebookstore directory and run the `ebookstore.py` file using Python.
 
-````cd ebookstore
+```cd ebookstore
 python ebookstore.py```
 
 This will create the ebookstore database and populate the "books" table with the specified data.
@@ -38,4 +38,3 @@ Once you are in the SQLite command-line interface, you can run SQL commands to i
 ```SELECT * FROM books;```
 
 You can also run the example Python code provided in this repository to perform various operations on the "books" table, such as inserting data into the table, updating data in the table, or deleting data from the table.
-````
